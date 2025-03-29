@@ -73,7 +73,7 @@ We trained three machine learning models—Random Forest, Logistic Regression, a
 ---
 
 ## **4. Next Steps**  
-- **Expand the dataset** Include more songs from countries beyond the seven largest music markets to enhance prediction accuracy across a broader range of African markets.
+- **Expand the dataset**: Include more songs from countries beyond the seven largest music markets to enhance prediction accuracy across a broader range of African markets.
 - **Try deep learning models** like neural networks to improve performance.  
 
 ---
