@@ -1,9 +1,12 @@
 ## **Overview**  
 
-This project focuses on the top seven African music industries—Nigeria, South Africa, Ghana, Kenya, Tanzania, DR Congo, and Benin Republic—selected based on market size, cultural influence, and global reach. By narrowing the scope to these key markets, the machine learning model can better predict song popularity while minimizing noise from less influential regions. The analysis includes songs from top artists, verified through Google searches, with all **Forbes’ 20 Biggest African Artists of 2022** originating from these selected countries.
+This project focuses on the top seven African music industries—Nigeria, South Africa, Ghana, Kenya, Tanzania, DR Congo, and Benin Republic—selected based on market size, cultural influence, and global reach.
+By narrowing the scope to these key markets, the machine learning model can better predict song popularity while minimizing noise from less influential regions. 
+The analysis includes songs from top artists, verified through Google searches, with all **Forbes’ 20 Biggest African Artists of 2022** originating from these selected countries.
+
 It utilizes various classification models, including Random Forest (RF), Logistic Regression (LR), and XGBoost, to determine whether a song will be popular based on key audio and metadata features.
 
-The dataset includes various musical attributes such as tempo, key, loudness, duration, and streaming engagement metrics. The goal is to identify patterns that distinguish popular songs from less popular ones and to build models that provide accurate predictions.
+The dataset includes various musical attributes such as genre, key, loudness, duration, danceability. The goal is to identify patterns that distinguish popular songs from less popular ones and to build models that provide accurate predictions.
 
 ## **Key Objectives**  
 - **Feature Analysis:** Identifying key attributes that influence song popularity.  
@@ -63,7 +66,7 @@ We trained three machine learning models—Random Forest, Logistic Regression, a
 
 ## **3. Technical Implementation**  
 - **Data Preprocessing:** Cleaning, normalizing, and encoding categorical variables.  
-- **Feature Engineering:** Constructing derived features from audio attributes.  
+- **Feature Engineering:** We split the genre column using regex to separate multiple genres, then created individual columns where each genre was marked as 1 if present in a song.
 - **Model Training & Tuning:** Hyperparameter optimization for RF and XGBoost.  
 - **Evaluation Metrics:** Using confusion matrices, precision, recall, and F1-score.  
 
