@@ -31,7 +31,7 @@ We cleaned and prepared the dataset by handling missing values, normalizing nume
 ---
 
 ## **2. Model Evaluation**  
-We trained three machine learning models—Random Forest, Logistic Regression, and XGBoost—and compared their performance on classifying song popularity.
+We trained three machine learning models—Random Forest, Logistic Regression, and XGBoost—and compared their performance on classifying song popularity on a validation set.
 
 ### **Random Forest (RF)**  
 - **Correctly classified:** 1088 (82.24%)  
