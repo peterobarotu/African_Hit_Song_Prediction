@@ -67,7 +67,7 @@ We trained three machine learning models—Random Forest, Logistic Regression, a
 ## **3. Technical Implementation**  
 - **Data Preprocessing:** Cleaning, normalizing, and encoding categorical variables.  
 - **Feature Engineering:** We split the genre column using regex to separate multiple genres, then created individual columns where each genre was marked as 1 if present in a song.
-- **Model Training & Tuning:** Hyperparameter optimization for RF and XGBoost.  
+- **Model Training & Tuning:** Hyperparameter optimization.  
 - **Evaluation Metrics:** Using confusion matrices, precision, recall, and F1-score.  
 
 ---
