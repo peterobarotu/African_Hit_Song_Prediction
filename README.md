@@ -58,7 +58,7 @@ We trained three machine learning models—Random Forest, Logistic Regression, a
 - **Unpopular songs misclassified as popular:** 317 (25.92%)  
 
 ### **Findings:**  
-- **Random Forest performed best overall**, with high classification accuracy for both classes.
+- **Random Forest performed best overall**, with high classification accuracy for both classes but misclassify  a lot of popular songs compare with LR and XGBoost.
 - **Logistic Regression struggled with unpopular songs**, misclassifying more than half.
 - **XGBoost balanced between RF and LR**, achieving better results for popular songs but slightly lower accuracy for unpopular songs.
 
