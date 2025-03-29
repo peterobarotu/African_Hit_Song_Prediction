@@ -24,7 +24,7 @@ We cleaned and prepared the dataset by handling missing values, normalizing nume
 - **Class Imbalance Handling:** Addressed imbalance using techniques like SMOTE.
 
 ### **Findings:**  
-- Certain audio features like tempo and loudness are strong predictors of song popularity.
+- Certain audio features like genre and danceanility are strong predictors of song popularity.
 - Data imbalance (fewer popular songs) affected classification accuracy in some models.
 - Feature selection improved model performance by reducing noise.
 
